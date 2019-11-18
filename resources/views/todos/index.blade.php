@@ -8,5 +8,7 @@
 </head>
 <body>
     <h2>TODOS PAGE</h2>
+
+    {{ $todos }}
 </body>
 </html>
