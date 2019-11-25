@@ -24,7 +24,7 @@
                                     <li class="list-group-item">
                                         {{ $todo->name }}
 
-                                        <div class="button btn-primary btn-sm float-right">View</div>
+                                        <a href="todos/{{ $todo->id }}" class="btn btn-primary btn-sm float-sm-right">View</a>
                                     </li>
                                 @endforeach
                             </ul>
